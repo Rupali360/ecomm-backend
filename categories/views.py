@@ -4,4 +4,4 @@ from django.http import HttpResponse
 
 
 def categories_views(request):
-    return HttpResponse.
+    return HttpResponse.json({msg: "hello world"})
